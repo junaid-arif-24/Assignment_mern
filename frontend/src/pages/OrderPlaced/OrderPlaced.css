@@ -1,0 +1,33 @@
+.order-placed-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h2 {
+    font-size: 38px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .order-placed-image {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 24px;
+    }
+  
+    .order-placed-image {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  
